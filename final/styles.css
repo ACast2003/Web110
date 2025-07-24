@@ -1,0 +1,99 @@
+/* Abigail Cast 06/24/2025 */
+/* Abigail Cast 07/23/2025 updated */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(0deg, #e17491, #ea9d73);
+  color: #743ee1;
+  line-height: 1.6;
+  background-color: #f0f8ff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: #19e377;
+  padding: 2rem 2rem;
+  margin-bottom: 0rem;
+  text-align: center;
+  color: #615955;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+nav {
+  background-color: #acd3b9;
+  padding: 1.5rem 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: #d9e8d8;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+/* New Addition */
+.intro {
+  display: block;
+}
+/* New Addition */
+.gridObject {
+  display: flex;
+  gap: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #180e51;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #602e97;
+}
+
+img {
+  width: 30%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  background-color: #fffca9;
+  color: #180e51;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+}
+/* New Addition */
+@media (max-width: 480px) {
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+  .gridObject {
+    display: block;
+  }
+}

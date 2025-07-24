@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Abigail Cast 07/22/25 Home Page -->
+  <head>
+    <title>Forms</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      form {
+        background-color: #e5b27f;
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="deckChoice.html">Decklists</a></li>
+        <li><a href="combos.html">Combos</a></li>
+        <li><a href="matchups.html">Matchups</a></li>
+        <li><a href="form.html">Forms</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="gridObject">
+        <div>
+          <h3>Form Submiter</h3>
+          <p>Sign my guest log below</p>
+          <fieldset>
+            <form
+              method="post"
+              action="https://webdevbasics.net/scripts/demo.php"
+            >
+              Name<br />
+              <input type="text" name="user" id="user" /><br />
+              Which pages did you like?<br />
+              <input
+                type="checkbox"
+                name="homepage"
+                id="homepage"
+                value="yes"
+              />Home page<br />
+              <input
+                type="checkbox"
+                name="deckChoicePage"
+                id="deckChoicePage"
+                value="yes"
+              />Deck Choices<br />
+              <input
+                type="checkbox"
+                name="combosPage"
+                id="combosPage"
+                value="yes"
+              />Combos<br />
+              <input
+                type="checkbox"
+                name="matchupsPage"
+                id="matchupsPage"
+                value="yes"
+              />Matchups<br />
+              <input
+                type="checkbox"
+                name="formPage"
+                id="formPage"
+                value="yes"
+              />This Page<br />
+              What are you:<br />
+              <input type="radio" name="role" id="roleStud" value="Student" />
+              Student<br />
+              <input type="radio" name="role" id="roleProf" value="Professor" />
+              Professor<br />
+              <input type="radio" name="role" id="roleOther" value="Other" />
+              Other<br />
+              Date<br />
+              <input
+                type="date"
+                name="logDate"
+                id="idDate"
+                value="2025-07-23"
+              /><br />
+              What is your Yu-gi-oh decklist?<br />
+              <textarea
+                name="decklist"
+                id="decklistInput"
+                rows="20"
+                cols="50"
+              ></textarea
+              ><br />
+              What is your favorite Non Mementotlan Deck? <br />
+              <select size="1" name="faveDeck" id="faveDeck">
+                <option>Choose One</option>
+                <option>Maliss</option>
+                <option>Blue Eyes</option>
+                <option>Fiendsmith Control</option></select
+              ><br />
+
+              <input
+                type="submit"
+                name="submit"
+                id="emailsubmit"
+                value="Sign"
+              />
+              <input
+                type="reset"
+                name="formReset"
+                id="formReset"
+                value="Reset"
+              />
+            </form>
+          </fieldset>
+        </div>
+        <div>
+          <h3>Thanks</h3>
+          <p>Thanks for taking time out of your day to check out my page</p>
+          <img
+            src="MementotlanShleepy.jpg"
+            alt="Mementotlan Shleepy art from Konami"
+          />
+
+          <h3>Credits</h3>
+          <ul>
+            <li>Images from Konami Digital Entertainment</li>
+            <li>
+              Decklists and resources from
+              <a href="https://www.masterduelmeta.com/">Masterduel Meta</a>
+            </li>
+            <li>Special thanks to Terry Falks-Morris for the textbook</li>
+            <li>Mozilla documentation and w3schools for documentation</li>
+            <li>And Professor Alision Hanna for the course</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <small>
+        Abigail Cast
+        <a href="mailto:acast@stumail.jccc.edu"> acast@stumail.jccc.edu</a>
+      </small>
+    </footer>
+  </body>
+</html>
